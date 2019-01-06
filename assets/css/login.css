@@ -1,0 +1,93 @@
+#content2 {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  position: fixed;
+}
+
+
+.center-screen {
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  transform: translateY(-50%);
+}
+
+.logo {
+  color: rgba(30,30,30);
+}
+
+.logo span {
+  color: #f2711c;
+}
+
+h6 {
+  margin-top: 0px;
+}
+
+h1{
+  margin-bottom: 5px;
+}
+.password-forget {
+  padding: 5px 0px 5px 0px;
+}
+
+.password-forget a {
+  font-size: 11px;
+  color: #000;
+}
+
+ a:hover {
+  color: #f2711c;
+}
+
+.login-background {
+  width: 100%;
+  position: fixed;
+  top: 69px;
+  z-index: -2;
+}
+
+.login-background::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+.login-background img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  object-fit: cover;
+}
+
+.back {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: .28571429rem;
+  box-shadow: 1px 3px 3px 0 rgba(0,0,0,.2),1px 3px 15px 2px rgba(0,0,0,.2);
+
+}
+
+
+#conent2 .column section.active {
+  display: block;
+}
+
+.ui.back.fluid.button {
+  margin-top: 5px;
+}
+
+.ui.checkbox {
+  padding-bottom: 15px;
+}
+
+.ui.checkbox a {
+  color: #f2711c;
+}

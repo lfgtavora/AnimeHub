@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    height: 24px;
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    font-size: 11px;
+    line-height: 24px;
+}
+
+nav {
+    width: 240px;
+    height: 100vh;
+    float: left;
+    background: none;
+}
+
+nav ul {
+    padding: 8px;
+    color: #fff;
+    font-size: 12px;
+}
+
+select {
+    background-color: transparent;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0px;
+    font-size: 11px;
+    outline:0px;
+}
+
+.signature {
+    float: left;
+}
+
+.options {
+    display: flex;
+    height: 24px;
+}
+
+.options > * {
+    padding: 0 8px 0 8px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+}
+
+.options > *:hover {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.right {
+    float: right;
+
+}
+
+.directory:first-child{
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+nav ul li {
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+
+}
+
+pre {
+    border: none;
+    resize: none;
+    width: calc(100% - 240px);
+    height: 100vh;
+}
+
+body {
+    font-family: 'consolas';
+    font-size: 14px;
+    overflow: hidden;
+}

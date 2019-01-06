@@ -1,0 +1,153 @@
+#content {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bar-options {
+  width: 100%;
+  padding: 14px 0px 14px 0px;
+  background-color: rgba(255, 255, 255, 0.99);
+  z-index: 100;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .body-cards {
+  padding-top: 66px;
+}
+
+
+table .ui.button {
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 69px;
+  background-color: rgba(30,30,30,1);
+  padding: 14px;
+  border-top: 5px solid #f2711c;
+  z-index: 40;
+}
+
+
+nav .trademark {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+nav .trademark img {
+  width: 28px;
+  height:auto;
+  border-radius: 4px;
+}
+
+nav p {
+
+  margin-left: 10px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 100;
+  font-size: 22px;
+  margin-bottom: 0px;
+  line-height: 36px;
+}
+
+nav p span {
+  font-weight: 700;
+  color: #f2711c;
+}
+
+.right {
+  float: right;
+}
+
+
+footer {
+  width: 100%;
+  background-color: rgba(30,30,30,1);
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  color: #9D9FA1;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 40px;
+  position: relative;
+}
+
+footer .social-tags {
+  line-height: 40px;
+}
+
+i.flag:not(.icon) {
+  margin: 0;
+}
+
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    outline: 0;
+    direction: inherit;
+}
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 16px;
+}
+
+footer a, footer a:hover {
+  color: #f2711c;
+}
+
+.tags .ui.label > .icon {
+  margin-right: 0px;
+}
+
+footer .social-tags i:hover {
+  color: #f2711c !important;;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* notification/alarm box */
+.ui.list .list > .item a.header, .ui.list > .item a.header {
+    cursor: pointer;
+    color: #f2711c !important;
+}
+
+.box-alarm a, .ui.list .list > .item a.header:hover, .ui.list > .item a.header:hover {
+    color: #f2711c !important;
+}
+
+.box-alarm .ui.selection.list .list > .item.active, .ui.selection.list > .item.active {
+    background: rgba(242, 113, 28, 0.17) !important;
+    color: rgba(0,0,0,.95) !important;
+}
+
+
+/* toggle button control */
+.ui.button.toggle.active, .ui.buttons .button.toggle.active, .ui.toggle.buttons .active.button {
+    background-color: #f2711c !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    color: #fff !important;
+}
+
+.ui.button.toggle.active:hover {
+    background-color: #f26202 !important;
+    text-shadow: none;
+    color: #fff !important;
+}
+
+.alarm-box {
+  max-height: 230px;
+}

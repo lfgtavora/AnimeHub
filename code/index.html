@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="src-min-noconflict/theme-monokai.js"></script>
+    <script src="src-min-noconflict/mode-java.js"></script>
+    <script src="js/codejs.js"></script>
+    <title>CodeCloud</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navegation">
+            <div class="directory">Directories</div>
+            <ul class="teste">
+                <li>/Seila</li>
+                <li>/Kibelokodemais</li>
+                <li>/supersyamen</li>
+            </ul>
+        </nav>
+        <pre id="editor">
+public class Armstrong {
+
+    public static void main(String[] args) {
+
+        int number = 371, originalNumber, remainder, result = 0;
+
+        originalNumber = number;
+
+        while (originalNumber != 0)
+        {
+            remainder = originalNumber % 10;
+            result += Math.pow(remainder, 3);
+            originalNumber /= 10;
+        }
+
+        if(result == number)
+            System.out.println(number + " is an Armstrong number.");
+        else
+            System.out.println(number + " is not an Armstrong number.");
+    }
+
+    
+}
+</pre>
+        <footer id="footer">
+            <div class="signature">Made with love by @lfgtavora</div>
+
+            <div class="options right">
+                    <select id="theme-menu">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <select id="language-menu">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select> 
+                </div>
+                
+            </div>
+
+        </footer>
+    </div>
+    <input id="lastUpdate" type="hidden" name="lastUpdate" value="1541187228829">
+
+    <script src="src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+    <script src="js/codejs.js"></script>
+
+</body>
+</html>

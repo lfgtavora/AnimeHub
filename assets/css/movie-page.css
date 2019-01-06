@@ -1,0 +1,193 @@
+.principal-box{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-box {
+  width: 222px;
+  border-radius: 4px;
+  border: 1px solid #E1E4E8;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+figure {
+  margin: 0px;
+}
+
+.info-box figure {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.info-box img {
+  border-radius: 4px;
+  width: 200px;
+  height: 300px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.tags {
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+h6 {
+  margin: 0px;
+  margin-right: 5px;
+}
+
+h5 {
+  margin-bottom: 5px;
+}
+
+.plot {
+  font-size: 11px;
+  height: 66px;
+  color: #8E939A;
+}
+
+.ui.basic.blue.label {
+  background-color: none !important;
+  color: #f2711c !important;
+  border-color: #f2711c !important;
+}
+
+
+
+.info-box figure .poster-play {
+  border-radius: 4px;
+  opacity: 0;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  color: #fff;
+  transition: 0.3s;
+  background-color: rgba(36, 41, 46, 0.6);
+}
+
+.info-box figure .poster-play i {
+  position: relative;
+  width: 100%;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 36px;
+}
+
+.info-box figure:hover .poster-play {
+  opacity: 1;
+}
+
+.info-box .ui.basic.button:hover, .ui.basic.buttons .button:hover {
+    background: #fff !important;
+    color: #f2711c !important;
+    box-shadow: 0 0 0 1px #f2711c inset,0 0 0 0 rgba(34,36,38,.15) inset;
+}
+
+
+.ui.fluid.button {
+    display: block;
+    margin-top: 10px;
+}
+
+.ui.table{
+  margin: 0;
+  width: 708px;
+}
+
+
+table th .new-link{
+  position: relative;
+  left: 10px;
+}
+
+
+.ui.basic.blue.button, .ui.basic.blue.buttons .button {
+    box-shadow: 0 0 0 1px #f2711c inset !important;
+    color: #f2711c !important;
+}
+
+
+.form-padding {
+  padding: 20px;
+}
+
+.ads {
+  width: 100%;
+  background-color: #fff;
+}
+
+.ads img {
+  width: 100%;
+}
+
+table .right {
+  float: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.message {
+  display: flex;
+  cursor: pointer;
+}
+
+.top-margin {
+  margin-top: 20px;
+
+}
+
+.message img {
+  width: 160px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.plot {
+  height: 80px;
+}
+
+.ui.rating .active.icon {
+    background: 0 0;
+    color:  #f2711c;
+}
+
+.ui.rating.selected.icon {
+    color:  #f2711c;
+}
+
+.ui.rating .active.selected.icon {
+    color:  #fc924c;
+}
+
+.ui.rating .icon.selected,.ui.rating .icon.selected.active {
+ background:0 0;
+ color:  #f2711c;
+}
+
+.info-box .info  .large .basic .label.label .ranking {
+  margin: 10px 0 0 0 !important;
+}
+
+
+.product-link {
+  position: fixed;
+  bottom: 60px;
+  right: 20px
+}
+
+h6 a {
+ color: rgba(0,0,0,.87);
+}
+
+h6 a:hover {
+ color: #f2711c;
+}

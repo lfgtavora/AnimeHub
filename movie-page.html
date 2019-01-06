@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/semantic-ui/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/movie-page.css">
+  <title>AnimeHub - tittle</title>
+</head>
+
+<body>
+
+  <nav>
+    <div id="content">
+      <div class="trademark">
+        <img src=".\assets\images\logo2.svg" alt="">
+        <p>Anime<span>Hub</span></p>
+      </div>
+
+      <button class="ui button right floated orange">
+        Login
+      </button>
+
+      <div class="ui inverted left icon input right">
+        <input placeholder="Search..." type="text">
+        <i class="search icon"></i>
+      </div>
+
+    </div>
+  </nav>
+
+  <div id="content" class="top-margin">
+    <div class="ui orange message">
+      <i class="birthday icon"></i>
+      AnimeHub is very new community project, maybe there are some epsodes missing, but you can always help us :)
+      <i class="close icon"></i>
+    </div>
+  </div>
+
+  <div id="content" class="principal-box">
+
+    <div class="info-box">
+      <figure>
+        <div class="poster-play">
+          <i class="play icon"></i>
+        </div>
+        <img src="https://vignette.wikia.nocookie.net/dragonball/images/0/00/Dragon_Ball_Super_Poster.jpg/revision/latest?cb=20150615164219" alt="DBZ: Super ">
+      </figure>
+      <div class="info">
+        <div class="title">
+          <h5>Dragon Ball Super </h5>
+          <div class="tags">
+            <div class="ui basic orange top left dropdown mini label">
+              9.5 <i class="star icon"></i>
+              <div class="menu">
+                <div class="item">
+                  <div class="ui rating" data-max-rating="10"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ui basic orange mini label">
+              2017
+            </div>
+            <div class="ui basic orange mini label">
+              EP134
+            </div>
+          </div>
+          <p class="plot">Dory is a wide-eyed, orange tang fish who suffers from memory loss every 10 seconds or so. The one thing she can remember is that she somehow became separated from her parents as a child. With help from her friends Nemo and Marlin, Dory embarks
+            on an epic adventure to find them. Her journey brings her to the Marine Life Institute, a conservatory that houses diverse ocean species.</p>
+        </div>
+        <div class="ui large basic label" style="margin: 10px 0 0 0">
+          <div class="ui rating" data-max-rating="10"></div>
+        </div>
+        <button class="ui grey2 small basic fluid button top">Add to bookmark</button>
+      </div>
+    </div>
+
+    <table class="ui striped selectable table">
+      <thead class="full-width">
+        <tr>
+          <th colspan="3">
+            <div class="ui search selection dropdown">
+              <input name="country" value="cl" type="hidden">
+              <i class="dropdown icon"></i>
+              <input class="search" autocomplete="off" tabindex="0">
+              <div class="text"><i class="cl flag"></i>Chile</div>
+              <div class="menu transition hidden" tabindex="-1">
+                <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
+                <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
+                <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
+                <div class="item" data-value="dz"><i class="dz flag"></i>Algeria</div>
+              </div>
+            </div>
+
+            <div class="ui search selection dropdown">
+              <i class="dropdown icon"></i>
+              <span class="default text">Select Episode</span>
+              <div class="menu">
+                <div class="item">
+                  <i class="checkmark orange icon"></i>
+                  Episode 6
+                </div>
+                <div class="item">
+                  <i class="checkmark orange  floated icon"></i>
+                  Episode 5
+                </div>
+                <div class="item"> <i class="checkmark disabled icon"></i> Episode 3-4 </div>
+                <div class="item"> <i class="checkmark disabled icon"></i> Episode 2 </div>
+                <div class="item"> <i class="checkmark disabled icon"></i> Episode 1 </div>
+              </div>
+            </div>
+          </th>
+          <th class="collapsing">
+            <div id="newLink"class="ui orange labeled icon button new-link">
+              <i class="send icon"></i>Add new link
+            </div>
+
+            <div class="ui custom popup left bottom pointing transition hidden ">
+              <div class="ui form">
+                <div class="fluid field">
+                  <label>Source link</label>
+                  <div class="ui labeled input">
+                    <div class="ui label">
+                      http://
+                    </div>
+                    <input placeholder="mysite.com" type="text">
+                  </div>
+                </div>
+                <div class="two fields">
+                  <div class="field">
+                    <label>Audio</label>
+                    <div class="ui search selection dropdown">
+                      <input name="country" value="cl" type="hidden">
+                      <i class="dropdown icon"></i>
+                      <input class="search" autocomplete="off" tabindex="0">
+                      <div class="text"><i class="japan flag"></i>Japan</div>
+                      <div class="menu transition hidden" tabindex="-1">
+                        <div class="item" data-value="jp"><i class="jp flag"></i>Japan</div>
+                        <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
+                        <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
+                        <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
+                        <div class="item" data-value="dz"><i class="dz flag"></i>Algeria</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label>Subtitle</label>
+                    <div class="ui search selection dropdown">
+                      <input name="country" value="cl" type="hidden">
+                      <i class="dropdown icon"></i>
+                      <input class="search" autocomplete="true" tabindex="0">
+                      <div class="text"><i class="cl flag"></i>Chile</div>
+                      <div class="menu transition hidden" tabindex="-1">
+                        <div class="item" data-value="">No Subtitle</div>
+                        <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
+                        <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
+                        <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
+                        <div class="item" data-value="dz"><i class="dz flag"></i>Algeria</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="two fields">
+                  <div class="field">
+                    <label>Episode</label>
+                    <select class="ui dropdown">
+                      <option value="AL">EP4</option>
+                      <option value="AK">EP4</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label>Video quality</label>
+                    <select class="ui dropdown">
+                      <option value="">All categories</option>
+                      <option value="AL">HD</option>
+                      <option value="AK">SD</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="ui checkbox">
+                  <input name="example" type="checkbox">
+                  <label>I agree with the terms.</label>
+                </div>
+                <button class=" ui fluid button orange">Add link</button>
+                <h6>
+                  <center>
+                    <a href="#"> <i class="help circle icon"></i></i>Read How to post tutorial</a>
+                  </center>
+                </h6>
+              </div>
+            </div>
+
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">
+            <div class="ui basic label link-rate" style="position: relative; top:1px">
+              <div class="ui rating" data-rating="5" data-max-rating="5"></div>
+            </div>
+
+            <button class="ui basic tiny icon button" data-tooltip="Original source" data-position="bottom center" data-inverted="">
+                <i class=" check circle orange icon"></i> Crunchyroll.com
+            </button>
+            <div class="ui orange label">
+              <i class="desktop icon"></i> HD
+            </div>
+          </td>
+          <td class="collapsing center aligned">
+            <div class="ui mini basic icon buttons">
+              <button class="ui button" data-tooltip="Dub" data-position="bottom center" data-inverted="">
+                  <i class="unmute  icon"></i>
+              </button>
+              <button class="ui button">
+                  <i class="us flag"></i>
+              </button>
+            </div>
+
+
+            <button onclick="playContentModal(event)" class="ui tiny orange button">Play</button>
+
+            <div class="ui icon basic tiny top right pointing dropdown button">
+              <i class="flag icon"></i>
+              <div class="menu">
+                <div onclick="reportContentModal(event)" class="item">Report content</div>
+                <div  onclick="reportDmcaModal(event)" class="item">Report DMCA</div>
+              </div>
+            </div>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="ui basic label link-rate" style="position: relative; top:1px">
+              <div class="ui rating" data-rating="4" data-max-rating="5"></div>
+            </div>
+            <button class="ui basic tiny icon button" data-tooltip="Original source" data-position="bottom center" data-inverted="">
+                Openload.co
+            </button>
+            <div class="ui orange label">
+              <i class="desktop icon"></i> HD
+            </div>
+          </td>
+          <td class="collapsing center aligned">
+            <div class="ui mini basic icon buttons">
+              <button class="ui button" data-tooltip="Sub" data-position="bottom center" data-inverted="">
+                  <i class="talk outline  icon"></i>
+              </button>
+              <button class="ui button">
+                  <i class="us flag"></i>
+              </button>
+            </div>
+
+
+            <button onclick="playContentModal(event)" class="ui tiny orange button">Play</button>
+
+            <div class="ui icon basic tiny top right pointing dropdown button">
+              <i class="flag icon"></i>
+              <div class="menu">
+                <div onclick="reportContentModal(event)" class="item">Report content</div>
+                <div  onclick="reportDmcaModal(event)" class="item">Report DMCA</div>
+              </div>
+            </div>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="ui basic label link-rate" style="position: relative; top:1px">
+              <div class="ui rating" data-rating="3" data-max-rating="5"></div>
+            </div>
+            <button class="ui basic tiny icon button" data-tooltip="Original source" data-position="bottom center" data-inverted="">
+                Openload.co
+            </button>
+            <div class="ui orange label">
+              <i class="desktop icon"></i> SD
+            </div>
+          </td>
+          <td class="collapsing center aligned">
+            <div class="ui mini basic icon buttons">
+              <button class="ui button">
+                  <i class="talk outline  icon"></i>
+              </button>
+              <button class="ui button">
+                  <i class="us flag"></i>
+              </button>
+            </div>
+
+
+            <button onclick="playContentModal(event)" class="ui tiny orange button">Play</button>
+
+            <div class="ui icon basic tiny top right pointing dropdown button">
+              <i class="flag icon"></i>
+              <div class="menu">
+                <div onclick="reportContentModal(event)" class="item">Report content</div>
+                <div  onclick="reportDmcaModal(event)" class="item">Report DMCA</div>
+              </div>
+            </div>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button class="ui basic mini icon button">
+                  <i class="cloud icon"></i>
+                </button> Openload.co
+          </td>
+
+          <td class="">Approved</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button class="ui basic mini icon button">
+                  <i class="cloud icon"></i>
+                </button> Openload.co
+          </td>
+
+          <td class="">Approved</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button class="ui basic mini icon button">
+                  <i class="cloud icon"></i>
+                </button> Openload.co
+          </td>
+
+          <td class="">Approved</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button class="ui basic mini icon button">
+                  <i class="cloud icon"></i>
+                </button> Openload.co
+          </td>
+
+          <td class="">Approved</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button class="ui basic mini icon button">
+                  <i class="cloud icon"></i>
+                </button> Openload.co
+          </td>
+
+          <td class="">Denied</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>
+
+
+          <button class="ui basic small labeled icon toggle button" data-tooltip="Notification me when new episodes are avaible" data-position="top center" data-inverted="">
+            <i class="alarm icon"></i>
+            Next Episode avaible on WED 6:30PM.
+          </button>
+          </th>
+
+          <th colspan="3">
+            <div class="ui right floated pagination menu">
+              <a class="icon item">
+                    <i class="left chevron icon"></i>
+                  </a>
+              <a class="item active">1</a>
+              <a class="item">2</a>
+              <a class="item">3</a>
+              <a class="item">4</a>
+              <a class="icon item">
+                    <i class="right chevron icon"></i>
+                  </a>
+            </div>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+
+  </div>
+
+  <div id="content">
+    <div class="ui info orange message">
+      <img src="https://ws1.sinaimg.cn/large/006yksIvgy1fm1c45i7ftj30go0azq47.jpg" alt="">
+      <i class="close icon"></i>
+      <div>
+        <div class="header">
+          AnimeHub recommends NordVPN
+        </div>
+        <ul class="list">
+          <li>Best users choices 2018 and trusted VPN on market.</li>
+          <li>Browse anonymous on internet.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--report content modal-->
+
+  <div id="report-modal" class="ui mini modal">
+    <div class="header">
+      Report content
+    </div>
+    <div class="form-padding">
+      <select class="ui fluid dropdown report-dropdown">
+        <option value="">choose a reason</option>
+        <option value="0">Wrong quality tag</option>
+        <option value="1">Dead link</option>
+        <option value="2">Is not this movie</option>
+      </select>
+    </div>
+    <div class="actions">
+      <div class="ui deny button">Cancel</div>
+      <div class="ui orange right labeled icon button">Report now<i class="send icon"></i></div>
+    </div>
+  </div>
+
+  <!--report DMCA modal-->
+
+  <div id="dmca-modal" class="ui modal">
+    <div class="header">
+      Report DMCA
+    </div>
+    <div class="form-padding">
+      <form class="ui form">
+        <div class="three fields">
+          <div class="field">
+            <label>First Name</label>
+            <input name="first-name" placeholder="First Name" type="text">
+          </div>
+          <div class="field">
+            <label>Company name</label>
+            <input name="last-name" placeholder="Company name" type="text">
+          </div>
+          <div class="field">
+            <label>E-mail adress</label>
+            <input name="last-name" placeholder="Email" type="text">
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Proof of owership</label>
+            <textarea style="resize: none" name="owership" placeholder="Can be any proof of ownership, digital asignature, URL, image..."></textarea>
+          </div>
+          <div class="field">
+            <label>Why this link should be removed?</label>
+            <textarea style="resize: none" name="owership" placeholder="Explain with few words why this link should be removed from Playstream"></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <label>Digital signature</label>
+          <input name="last-name" placeholder="Your digital signature" type="text">
+        </div>
+      </form>
+    </div>
+    <div class="actions">
+      <div class="ui deny button">Cancel</div>
+      <div class="ui  orange right labeled icon button">Report now<i class="send icon"></i></div>
+    </div>
+  </div>
+
+  <!--play content modal-->
+
+  <div id="play-modal"class="ui modal">
+    <div class="header">
+      Just some advertising before play
+    </div>
+    <div class="ads">
+      <img src="./assets/js/ad.jpg" alt="">
+    </div>
+    <div class="actions">
+      <center>
+        <div class="ui labeled icon big orange button">
+          click here to play
+          <i class="play icon"></i>
+        </div>
+        </center>
+      </div>
+  </div>
+
+  <!--Trailer modal-->
+
+  <div class="ui basic modal trailer">
+  <center><div class="content">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ujB0VyOqVMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="ui banner test ad" data-text="Banner"></div>
+  </div></center>
+  </div>
+
+
+
+
+
+  <button class="ui huge orange icon button product-link"  data-tooltip="Buy official products of this anime at amazon.com!" data-position="left center" data-inverted="">
+    <i class="amazon icon"></i>
+  </button>
+
+
+  <footer>
+    <div id="content">
+      <p>Disclaimer: AnimeHub does not store any files on its server. All contents are provided by non-affiliated third parties. <a href="#">Read more</a></p>
+      <div class="social-tags right">
+        <div class="store" data-tooltip="Visit our oficial store!" data-position="top center" data-inverted=""><i class="shopping bag icon grey"></i></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/semantic-ui/semantic.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script type="text/javascript" src="./assets/js/global.js"></script>
+  <script type="text/javascript" src="./assets/js/movie-page.js"></script>
+
+</body>
+
+</html>
